@@ -36,7 +36,12 @@ export const collections = {
   index: defineCollection({
     source: '0.index.yml',
     type: 'page',
-    schema: z.object({
+    schema: createBaseSchema().extend({
+      seo: z.object({
+        title: z.string().optional(),
+        description: z.string().optional()
+      }).optional(),
+      navigation: z.union([z.boolean(), z.object({ title: z.string() })]).optional(),
       hero: z.object(({
         links: z.array(createLinkSchema())
       })),
@@ -75,8 +80,8 @@ export const collections = {
     source: '1.docs/**/*',
     type: 'page'
   }),
-  pricing: defineCollection({
-    source: '2.pricing.yml',
+  kinerja: defineCollection({
+    source: '2.kinerja.yml',
     type: 'page',
     schema: z.object({
       plans: z.array(
@@ -128,12 +133,12 @@ export const collections = {
       badge: z.object({ label: z.string().nonempty() })
     })
   }),
-  changelog: defineCollection({
-    source: '4.changelog.yml',
+  sejarah: defineCollection({
+    source: '4.sejarah.yml',
     type: 'page'
   }),
   versions: defineCollection({
-    source: '4.changelog/**/*',
+    source: '4.sejarah/**/*',
     type: 'page',
     schema: z.object({
       title: z.string().nonempty(),

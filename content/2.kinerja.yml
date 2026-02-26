@@ -1,0 +1,72 @@
+title: Kinerja dan Capaian OSIS
+description: Kami berkomitmen untuk transparansi dan akuntabilitas dalam setiap program kerja yang dijalankan untuk kemajuan SMK Assalaam.
+seo:
+  title: Kinerja OSIS SMK Assalaam
+  description: Laporan kinerja dan capaian program kerja OSIS SMK Assalaam Bandung.
+navigation.icon: i-lucide-trending-up
+plans:
+  - title: Program Rutin
+    description: Kegiatan harian dan mingguan yang menjaga stabilitas organisasi.
+    price:
+      month: '100%'
+      year: 'Lancar'
+    button:
+      label: Lihat Detail
+      color: neutral
+      variant: subtle
+    features:
+      - Rapat Mingguan
+      - Kebersihan Lingkungan
+      - Kedisiplinan Siswa
+      - Dokumentasi Kegiatan
+      - Laporan Bulanan
+  - title: Event Besar
+    description: Program unggulan dengan dampak luas bagi seluruh siswa.
+    price:
+      month: '95%'
+      year: 'Sukses'
+    highlight: true
+    scale: true
+    button:
+      label: Lihat Dokumentasi
+    features:
+      - LDKO Tahunan
+      - Class Meeting
+      - Pensi Kreatif
+      - Bakti Sosial
+      - Kunjungan Industri
+  - title: Pengembangan
+    description: Inovasi dan riset untuk kemajuan organisasi di masa depan.
+    price:
+      month: '80%'
+      year: 'Progres'
+    button:
+      label: Ikuti Perkembangan
+      color: neutral
+      variant: subtle
+    features:
+      - Pelatihan Digital
+      - Kerjasama Eksternal
+      - Studi Banding
+      - Kaderisasi Pemimpin
+      - Inovasi Program
+logos:
+  title: Didukung Oleh Mitra Strategis
+  icons:
+    - i-simple-icons-nuxtdotjs
+    - i-simple-icons-tailwindcss
+    - i-simple-icons-github
+    - i-simple-icons-vercel
+    - i-simple-icons-visualstudiocode
+faq:
+  title: Pertanyaan Seputar Kinerja OSIS
+  description: Informasi lebih lanjut mengenai bagaimana kami mengelola program dan mempertanggungjawabkan setiap kegiatan.
+  items:
+    - label: Bagaimana cara melihat laporan keuangan OSIS?
+      content: Laporan keuangan dipublikasikan secara transparan setiap akhir semester melalui papan pengumuman sekolah dan rapat pleno.
+    - label: Siapa yang mengevaluasi kinerja OSIS?
+      content: Kinerja kami dievaluasi langsung oleh Pembina OSIS dan Wakil Kepala Sekolah Bidang Kesiswaan.
+    - label: Apakah siswa bisa memberikan kritik dan saran?
+      content: Tentu, kami menyediakan kotak saran di depan ruang OSIS dan formulir aspirasi online.
+    - label: Apa itu LDKO?
+      content: Latihan Dasar Kepemimpinan Organisasi adalah program wajib bagi calon pengurus untuk melatih karakter dan kemampuan manajerial.
