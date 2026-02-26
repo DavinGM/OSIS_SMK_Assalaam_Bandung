@@ -8,7 +8,7 @@ const columns = [{
   }, {
     label: 'Roadmap'
   }, {
-    label: 'Changelog'
+    label: 'Sejarah'
   }]
 }, {
   label: 'Features',
@@ -26,7 +26,7 @@ const columns = [{
   children: [{
     label: 'About'
   }, {
-    label: 'Pricing'
+    label: 'Kinerja'
   }, {
     label: 'Careers'
   }, {

@@ -18,7 +18,7 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt SaaS template',
+  titleTemplate: '%s - OSIS SMK Assalaam',
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/saas-light.png',
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/saas-light.png',
   twitterCard: 'summary_large_image'
@@ -36,17 +36,17 @@ const links = [{
   icon: 'i-lucide-book',
   to: '/docs/getting-started'
 }, {
-  label: 'Pricing',
+  label: 'Kinerja',
   icon: 'i-lucide-credit-card',
-  to: '/pricing'
+  to: '/kinerja'
 }, {
   label: 'Blog',
   icon: 'i-lucide-pencil',
   to: '/blog'
 }, {
-  label: 'Changelog',
+  label: 'Sejarah',
   icon: 'i-lucide-history',
-  to: '/changelog'
+  to: '/sejarah'
 }]
 
 provide('navigation', navigation)

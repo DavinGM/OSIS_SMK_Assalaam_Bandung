@@ -6,24 +6,27 @@ const items = computed(() => [{
   to: '/docs',
   active: route.path.startsWith('/docs')
 }, {
-  label: 'Pricing',
-  to: '/pricing'
+  label: 'Kinerja',
+  to: '/kinerja',
+  active: route.path.startsWith('/kinerja')
 }, {
   label: 'Blog',
-  to: '/blog'
+  to: '/blog',
+  active: route.path.startsWith('/blog')
 }, {
-  label: 'Changelog',
-  to: '/changelog'
+  label: 'Sejarah',
+  to: '/sejarah',
+  active: route.path.startsWith('/sejarah')
 }])
 </script>
 
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="flex items-center gap-2">
         <AppLogo class="w-auto h-6 shrink-0" />
+        <span class="font-bold text-lg hidden sm:block">OSIS SMK Assalaam</span>
       </NuxtLink>
-      <TemplateMenu />
     </template>
 
     <UNavigationMenu
@@ -58,6 +61,7 @@ const items = computed(() => [{
         to="/signup"
       />
     </template>
+
 
     <template #body>
       <UNavigationMenu
